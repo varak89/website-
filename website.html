@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freight Services | Your Logistics Company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Freight Services</h1>
+        <p>Reliable & Efficient Logistics Solutions</p>
+    </header>
+    
+    <section id="services">
+        <h2>Our Freight Services</h2>
+        <ul>
+            <li><strong>Road Freight:</strong> Flexible trucking solutions for domestic and cross-border deliveries.</li>
+            <li><strong>Air Freight:</strong> Fast and secure air shipping for urgent cargo.</li>
+            <li><strong>Sea Freight:</strong> Cost-effective shipping for bulk and heavy loads.</li>
+            <li><strong>Rail Freight:</strong> Eco-friendly transport for long-distance freight.</li>
+            <li><strong>Last-Mile Delivery:</strong> Ensuring timely delivery to the final destination.</li>
+        </ul>
+    </section>
+    
+    <section id="why-choose-us">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li>✅ Real-Time Tracking – Stay updated on your shipment’s status.</li>
+            <li>✅ Competitive Pricing – Cost-effective solutions without compromising quality.</li>
+            <li>✅ Global & Domestic Coverage – Reliable logistics across multiple regions.</li>
+            <li>✅ Secure & Timely Delivery – Ensuring your cargo arrives safely and on time.</li>
+        </ul>
+    </section>
+    
+    <section id="tracking">
+        <h2>Track Your Shipment</h2>
+        <p>Enter your tracking number to get real-time updates on your freight.</p>
+        <input type="text" placeholder="Enter Tracking Number" id="tracking-number">
+        <button onclick="trackShipment()">Track Now</button>
+    </section>
+    
+    <section id="quote">
+        <h2>Request a Quote</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="details">Shipment Details:</label>
+            <textarea id="details" name="details" required></textarea>
+            
+            <button type="submit">Get a Quote</button>
+        </form>
+    </section>
+    
+    <script>
+        function trackShipment() {
+            let trackingNumber = document.getElementById("tracking-number").value;
+            if (trackingNumber) {
+                alert("Tracking details for: " + trackingNumber);
+            } else {
+                alert("Please enter a tracking number.");
+            }
+        }
+    </script>
+</body>
+</html>
