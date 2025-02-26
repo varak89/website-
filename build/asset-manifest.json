@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/website-/VMS/static/css/main.3925802b.css",
+    "main.js": "/website-/VMS/static/js/main.ccabcad3.js",
+    "static/js/453.fadc3cd2.chunk.js": "/website-/VMS/static/js/453.fadc3cd2.chunk.js",
+    "index.html": "/website-/VMS/index.html",
+    "main.3925802b.css.map": "/website-/VMS/static/css/main.3925802b.css.map",
+    "main.ccabcad3.js.map": "/website-/VMS/static/js/main.ccabcad3.js.map",
+    "453.fadc3cd2.chunk.js.map": "/website-/VMS/static/js/453.fadc3cd2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3925802b.css",
+    "static/js/main.ccabcad3.js"
+  ]
+}
