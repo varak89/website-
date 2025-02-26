@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/VMS/static/css/main.3925802b.css",
-    "main.js": "/VMS/static/js/main.5a167a6a.js",
-    "static/js/453.fadc3cd2.chunk.js": "/VMS/static/js/453.fadc3cd2.chunk.js",
-    "index.html": "/VMS/index.html",
-    "main.3925802b.css.map": "/VMS/static/css/main.3925802b.css.map",
-    "main.5a167a6a.js.map": "/VMS/static/js/main.5a167a6a.js.map",
-    "453.fadc3cd2.chunk.js.map": "/VMS/static/js/453.fadc3cd2.chunk.js.map"
+    "main.css": "/website-/VMS/static/css/main.3925802b.css",
+    "main.js": "/website-/VMS/static/js/main.ccabcad3.js",
+    "static/js/453.fadc3cd2.chunk.js": "/website-/VMS/static/js/453.fadc3cd2.chunk.js",
+    "index.html": "/website-/VMS/index.html",
+    "main.3925802b.css.map": "/website-/VMS/static/css/main.3925802b.css.map",
+    "main.ccabcad3.js.map": "/website-/VMS/static/js/main.ccabcad3.js.map",
+    "453.fadc3cd2.chunk.js.map": "/website-/VMS/static/js/453.fadc3cd2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3925802b.css",
-    "static/js/main.5a167a6a.js"
+    "static/js/main.ccabcad3.js"
   ]
 }
